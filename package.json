@@ -2,9 +2,9 @@
   "name": "csharp-electron-reactjs-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
-    "package-win": "electron-packager . electron-demo --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\\\"Electron-Demo\\\"\"",
+    "package-win": "electron-packager . electron-demo --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\\\"Electron-Demo\\\"\"",
     "build:react": "webpack --mode development --config webpack.react.config.js",
     "build": "webpack --mode development",
     "start": "electron ./dist/main.js"
