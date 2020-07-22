@@ -1,0 +1,38 @@
+{
+  "name": "csharp-electron-reactjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build:react": "webpack --mode development --config webpack.react.config.js",
+    "build": "webpack --mode development",
+    "start": "electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "EMARTE",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "electron": "^9.0.5",
+    "electron-cgi": "^1.0.5",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
