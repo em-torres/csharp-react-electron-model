@@ -5,7 +5,10 @@ by [Kristaps Vitolins](https://github.com/alzuma).
 
 ## Installation:
 Run the following commands:
-1. npm run build:react
-1. npm run build
-1. npm run start
+1. `npm run build:react`
+1. `npm run build`
+1. `npm run start`
+
+To create a Windows .exe, run:
+* `npm run package-win`
  
