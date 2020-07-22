@@ -23,7 +23,8 @@ const createWindow = () => {
     })
   );
 
-  window.webContents.openDevTools();
+  // Activates Development Tools
+  // window.webContents.openDevTools();
 
   window.on("closed", () => {
     window = null;
@@ -53,7 +54,7 @@ connection.onDisconnect = () => {
   console.log("Lost connection to the .Net process...");
 };
 
-connection.send("greeting", "Mom from C#", (error: any, response: any) => {
+connection.send("greeting", "Saludos Hector!! :D ", (error: any, response: any) => {
   if (error)
   {
     console.log(error);
